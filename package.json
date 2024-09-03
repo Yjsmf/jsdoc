@@ -1,12 +1,12 @@
 {
-  "homepage": "https://yjin021211@khu.ac.kr.github.io/https://github.com/Yjsmf/jsdoc.git",
+  "homepage": "https://yjin021211@khu.ac.kr.github.io/jsdoc",
   "name": "jsdoc-practice",
   "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
     "docs": "jsdoc -c jsdoc.json",
-  	"predeploy": "npm run docs",
-  	"deploy": "gh-pages -d docs",
+    "predeploy": "npm run docs",
+    "deploy": "gh-pages -d docs",
     "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
